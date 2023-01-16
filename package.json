@@ -2,11 +2,11 @@
   "name": "whatsapp",
   "version": "1.0.0",
   "description": "Live Chat App ",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js",
-    "serve": "node server"
+    "server": "nodemon server.js",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
