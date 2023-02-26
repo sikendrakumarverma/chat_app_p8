@@ -13,7 +13,7 @@ http.listen(PORT, () => {
 app.use(express.static(__dirname + '/public'))
 
 //Deliver message of client 
-app.get('/', (req, res) => {
+app.get('*', (req, res) => {
     res.sendFile(__dirname + '/index.html')
 })
 
